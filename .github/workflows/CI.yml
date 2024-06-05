@@ -56,7 +56,7 @@ jobs:
 
       - name: Build the Docker image
         working-directory: path
-        run: docker build . -t "${{secrets.DOCKER_HUB_USERNAME}}":dotnet-app:latest
+        run: docker build . -t "${{ secrets.DOCKER_HUB_USERNAME }}"/dotnet-app:latest
 
       - name: Setup Docker Buildx
         uses: docker/setup-buildx-action@v1
@@ -66,4 +66,4 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker buildx build --platform --platform linux/amd64,linux/arm64 -t "${{secrets.DOCKER_HUB_USERNAME}}":dotnet-app:latest . --push
+          docker buildx build --platform --platform linux/amd64,linux/arm64 -t "${{secrets.DOCKER_HUB_USERNAME}}"/dotnet-app:latest . --push
