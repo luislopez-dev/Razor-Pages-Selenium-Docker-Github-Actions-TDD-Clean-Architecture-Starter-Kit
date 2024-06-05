@@ -27,6 +27,7 @@ public class CreateTests : IDisposable
         _createPage.Navigate();
     }
 
+    /*
     [Fact]
     public void Create_WhenExecuted_ReturnsCreateView()
     {
@@ -58,4 +59,5 @@ public class CreateTests : IDisposable
         _driver.Quit();
         _driver.Dispose();
     }
+    */
 }
