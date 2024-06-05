@@ -16,6 +16,9 @@ jobs:
 
     steps:
 
+      - name: Test Reporter
+        uses: dorny/test-reporter@v1.9.1
+  
       - name: Check out the repository
         uses: actions/checkout@v2
 
