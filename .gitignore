@@ -9,3 +9,7 @@ NetFrameworkUnitTests/
 test
 .idea/
 .secrets.yml
+.terraform.lock.hcl
+.terraform
+.terraform.tfstate.lock.info
+terraform.tfstate
