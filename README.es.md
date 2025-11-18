@@ -1,5 +1,5 @@
 **Idiomas:**  
-[🇺🇸 English](README.md) | [🇪🇸 Español](README.es.md)
+[🇺🇸 English](README.md) | [🇬🇹 Español](README.es.md)
 
 # Plantilla de Arquitectura Empresarial en .NET
 
@@ -14,6 +14,8 @@ Esta plantilla proporciona una estructura limpia y extensible que acelera el des
 ## Visión General de la Arquitectura
 
 La solución está organizada en capas independientes y claramente definidas, diseñadas para reforzar la separación de responsabilidades, la testabilidad y la mantenibilidad a gran escala:
+
+<img width="700" height="400" alt="enterprise-dotnet-architecture" src="https://github.com/user-attachments/assets/e106d323-4e53-4085-9be0-af0e9a09146c" />
 
 ### **Presentation**
 Gestiona los endpoints de la API, modelos de request/response, controladores y preocupaciones transversales relacionadas con las solicitudes HTTP.
@@ -138,9 +140,7 @@ Puedes contactarme en:
 
 ## Video Demostrativo
 
-<div align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mJzvkAc4cLI?si=w2zx6jPE0bgqPXOO" title="Architecture Template Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+[![Architecture Template Demo](https://img.youtube.com/vi/mJzvkAc4cLI/0.jpg)](https://www.youtube.com/watch?v=mJzvkAc4cLI)
 
 ---
 
