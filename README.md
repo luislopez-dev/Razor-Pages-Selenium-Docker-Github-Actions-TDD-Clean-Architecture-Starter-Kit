@@ -1,7 +1,153 @@
-# Enterprise Software architecture
+**Languages:**  
+[🇺🇸 English](README.md) | [🇪🇸 Español](README.es.md)
 
-![Captura de pantalla (313)](https://github.com/luislopez-dev/.Net-webapp/assets/48783255/5f84d347-cf7b-4241-b5d1-6d39c167864d)
 
-<hr>
+# Enterprise .NET Architecture Template
 
-![Captura de pantalla (315)](https://github.com/luislopez-dev/.Net-webapp/assets/48783255/fae91af7-a31f-4161-9c20-23958350ba02)
+A robust, enterprise-grade architectural baseline powered by Clean Architecture, featuring modular, scalable, and fully testable .NET components — engineered by [Luis López](https://github.com/luislopez-dev).
+
+This template provides a clean, extensible structure that accelerates the development of **internal corporate systems and mission-critical business software**.
+
+**If you find this architecture valuable, please consider giving it a star ⭐. Your support helps me continue improving and expanding this template with new capabilities and enterprise-level features.**
+
+
+---
+
+## Architecture Overview
+
+The solution is organized into independent, clearly-defined layers, each designed to enforce separation of concerns, testability, and maintainability at scale:
+
+### **Presentation**
+Handles API endpoints, request/response models, controllers, and cross-cutting concerns related to delivery.
+
+### **Application**
+Contains the core use cases, business rules, application logic and orchestration.
+
+### **Business**
+Domain logic, entities and domain-specific behavior. Independent from infrastructure and UI concerns.
+
+### **Infrastructure**
+Implements external integrations: data persistence, repositories, external services, messaging, authentication providers, etc.
+
+---
+
+## Test-Driven Structure
+
+Each layer includes its own dedicated test project to ensure isolation, stability, and long-term reliability:
+
+- `Presentation.Tests`
+- `Application.Tests`
+- `Business.Tests`
+- `Infrastructure.Tests`
+
+This template is designed for organizations that value **quality, reproducibility, and long-term maintainability**.
+
+---
+
+## DevOps & Automation Ready
+
+This template includes built-in support for modern DevOps workflows, enabling fast provisioning, reliable development environments, and continuous integration out of the box.
+
+### **Docker & Containerization**
+- Preconfigured **Dockerfile** for the application
+- **docker-compose** setup for orchestrating services
+- Includes **SQL Server** container support for local and integration environments
+
+These components provide a consistent, reproducible, and production-oriented environment from day one.
+
+### **GitHub Actions CI Pipeline**
+A streamlined GitHub Actions workflow is included to automate:
+
+- Dependency restoration
+- Solution build
+- Layer-specific test execution
+
+This ensures code quality, reliability, and architectural integrity across the entire solution.
+
+---
+
+## Using the Template via `dotnet new`
+
+This architecture template is also available as a **.NET project template on NuGet**, allowing you to scaffold a complete enterprise-grade solution with a single command.
+
+### **Install the Template**
+```bash
+
+dotnet new install Enterprise.Architecture.Template
+
+dotnet new enterprise-architecture -n YourProjectName
+
+
+```
+
+---
+
+## Key Principles
+
+- **Clean Architecture**
+- **SOLID Design**
+- **Test-Driven Development Support**
+- **Layered Isolation**
+- **Plug-and-Play Extensibility**
+- **Enterprise-Ready Structure for Large Solutions**
+
+The code is structured to grow with your application — not constrain it.
+
+---
+
+## Ideal For
+
+- Companies modernizing legacy systems
+- Teams that need a proven architectural baseline
+- Developers who want to accelerate enterprise-level .NET projects
+
+This is a **foundation**, not a full product.  
+It is designed for teams that need a **high-caliber starting point** to build serious, scalable applications.
+
+---
+
+## Why This Template Exists
+
+Architectural decisions done incorrectly early in a project create friction, technical debt, and long-term limitations.
+
+This template exists to provide:
+
+- A **strong, future-proof architecture**
+- A **consistent modular structure**
+- A **realistic enterprise environment**
+- A **solid testing strategy for all layers**
+
+Use it as a base. Adapt it. Extend it.
+
+---
+
+## Enterprise Support & Consulting
+
+If your organization needs:
+
+- Architectural guidance
+- Custom integrations
+- Scalable backend design
+- Cloud-native migration
+- Performance optimization
+- Full enterprise support
+
+You can reach me at:
+
+**luis.dev.master@gmail.com**
+
+---
+
+## Demonstration Video
+
+<div align="center"> <iframe width="560" height="315" src="https://www.youtube.com/embed/mJzvkAc4cLI?si=w2zx6jPE0bgqPXOO" title="Architecture Template Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe> </div>
+
+---
+
+## Crafted and maintained by [Luis López](https://github.com/luislopez-dev)
+
+---
+
+## Build strong foundations. Deliver scalable systems.  
+
+

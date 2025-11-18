@@ -1,12 +1,12 @@
 ﻿/*
- * Author: Luis López
+ * Author: Luis René López
  * Website: https://github.com/luislopez-dev
- * Description: Training Project
+ * Description: Open source Project
  */
 
 using Business.Models;
 
-namespace Application.Abstractions;
+namespace Business.Interfaces;
 
 public interface IInvoiceService
 {

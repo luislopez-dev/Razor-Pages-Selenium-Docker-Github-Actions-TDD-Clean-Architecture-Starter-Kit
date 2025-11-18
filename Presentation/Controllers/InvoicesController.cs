@@ -1,10 +1,9 @@
 ﻿/*
- * Author: Luis López
+ * Author: Luis René López
  * Website: https://github.com/luislopez-dev
- * Description: Training Project
+ * Description: Open source Project
  */
 
-using Application.Abstractions;
 using Business.Exceptions.Invoice.Exceptions.ValidationExceptions;
 using Business.Interfaces;
 using Business.Models;
@@ -77,3 +76,9 @@ public class InvoicesController : BaseController
         }
     }
 }
+
+/*
+ ** Author: Luis René López
+ ** Website: https://github.com/luislopez-dev
+ ** Description: Open source Project
+ */

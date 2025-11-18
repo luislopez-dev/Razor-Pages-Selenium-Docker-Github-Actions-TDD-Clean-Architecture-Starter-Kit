@@ -1,23 +1,31 @@
 ﻿/*
- * Author: Luis López
+ * Author: Luis René López
  * Website: https://github.com/luislopez-dev
- * Description: Training Project
+ * Description: Open source Project
  */
 
-using Application.Abstractions;
+using Application.UseCases;
 using Business.Exceptions.Product.Exceptions;
+using Business.Interfaces;
 using Business.Models;
+using Business.UseCases;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Presentation.Controllers;
 
+/// <summary>
+/// 
+/// </summary>
 public class ProductsController : BaseController
 {
+    private readonly ICreateProductUseCase _createProductUseCase;
+    
     private readonly IProductService _productService;
 
-    public ProductsController(IProductService productService)
+    public ProductsController(IProductService productService, ICreateProductUseCase createProductUseCase)
     {
         _productService = productService;
+        _createProductUseCase = createProductUseCase;
     }
 
     public ActionResult Create()
@@ -145,8 +153,11 @@ public class ProductsController : BaseController
     {
         try
         {
+            await _createProductUseCase.InvokeAsync(product, cancellationToken);
+            /*
             await _productService
                 .AddProductAsync(product, cancellationToken);
+            */
 
             TempData["message"] = "¡Producto creado exitosamente!";
             
@@ -169,3 +180,9 @@ public class ProductsController : BaseController
         }
     }
 }
+
+/*
+ ** Author: Luis René López
+ ** Website: https://github.com/luislopez-dev
+ ** Description: Open source Project
+ */

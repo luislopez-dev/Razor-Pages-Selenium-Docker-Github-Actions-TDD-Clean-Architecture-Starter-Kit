@@ -1,7 +1,7 @@
 ﻿/*
- * Author: Luis López
+ * Author: Luis René López
  * Website: https://github.com/luislopez-dev
- * Description: Training Project
+ * Description: Open source Project
  */
 
 using System.Collections;
@@ -19,3 +19,9 @@ public class Product
 
     public List<InvoiceProduct> InvoiceProducts { get; set; } = new List<InvoiceProduct>();
 }
+
+/*
+ ** Author: Luis René López
+ ** Website: https://github.com/luislopez-dev
+ ** Description: Open source Project
+ */

@@ -1,7 +1,7 @@
 ﻿/*
- * Author: Luis López
+ * Author: Luis René López
  * Website: https://github.com/luislopez-dev
- * Description: Training Project
+ * Description: Open source Project
  */
 
 using System.Transactions;
@@ -37,3 +37,9 @@ public class UnitOfWork: IUnitOfWork
         return _context.Database.BeginTransaction();
     }
 }
+
+/*
+ ** Author: Luis René López
+ ** Website: https://github.com/luislopez-dev
+ ** Description: Open source Project
+ */

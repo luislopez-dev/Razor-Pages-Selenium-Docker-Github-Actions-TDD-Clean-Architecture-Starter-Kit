@@ -1,10 +1,9 @@
 ﻿/*
- * Author: Luis López
+ * Author: Luis René López
  * Website: https://github.com/luislopez-dev
- * Description: Training Project
+ * Description: Open source Project
  */
 
-using Application.Abstractions;
 using Application.Services;
 using Business.Interfaces;
 using Business.Models;
@@ -23,7 +22,7 @@ public static class ApplicationServiceExtensions
         services.AddDbContext<DataContext>(opt =>
             {
                 opt.UseSqlServer(config.GetConnectionString("app"));
-            }
+            }   
         );        
         services.AddScoped<IUnitOfWork, UnitOfWork>();
         services.AddScoped<IProductService, ProductService>();
@@ -34,3 +33,9 @@ public static class ApplicationServiceExtensions
         return services;
     }
 }
+
+/*
+ ** Author: Luis René López
+ ** Website: https://github.com/luislopez-dev
+ ** Description: Open source Project
+ */

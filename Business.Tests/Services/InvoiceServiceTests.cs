@@ -1,14 +1,14 @@
-﻿/*
+﻿namespace Application.Tests.Services;
+
+/*
  * Author: Luis René López
  * Website: https://github.com/luislopez-dev
  * Description: Open source Project
  */
 
-namespace Business.Interfaces;
-
-public interface IInvoiceProductRepository
+public class InvoiceServiceTests
 {
-    public Task CreateRecordAsync(int invoiceId, int[] selectedProducts, CancellationToken cancellationToken);
+    
 }
 
 /*

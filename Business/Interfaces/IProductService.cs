@@ -6,7 +6,7 @@
 
 using Business.Models;
 
-namespace Application.Abstractions;
+namespace Business.Interfaces;
 
 public interface IProductService
 {

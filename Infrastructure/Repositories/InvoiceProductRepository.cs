@@ -1,7 +1,7 @@
 ﻿/*
- * Author: Luis López
+ * Author: Luis René López
  * Website: https://github.com/luislopez-dev
- * Description: Training Project
+ * Description: Open source Project
  */
 
 using Business.Interfaces;
@@ -39,3 +39,9 @@ internal class InvoiceProductRepository : IInvoiceProductRepository
         }
     }
 }
+
+/*
+ ** Author: Luis René López
+ ** Website: https://github.com/luislopez-dev
+ ** Description: Open source Project
+ */

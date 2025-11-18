@@ -1,9 +1,9 @@
 ﻿/*
- * Author: Luis López
+ * Author: Luis René López
  * Website: https://github.com/luislopez-dev
- * Description: Training Project
+ * Description: Open source Project
  */
- 
+
 using Microsoft.EntityFrameworkCore.Storage;
 
 namespace Business.Interfaces;
@@ -23,3 +23,9 @@ public interface IUnitOfWork
     IDbContextTransaction BeginTransaction(CancellationToken cancellationToken);
     
 }
+
+/*
+ * Author: Luis René López
+ * Website: https://github.com/luislopez-dev
+ * Description: Open source Project
+ */

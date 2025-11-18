@@ -1,11 +1,13 @@
 ﻿/*
- * Author: Luis López
+ * Author: Luis René López
  * Website: https://github.com/luislopez-dev
- * Description: Training Project
+ * Description: Open Source Project
  */
 
-using Application.Abstractions;
+using Application.UseCases;
+using Business.Interfaces;
 using Business.Models;
+using Business.UseCases;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
@@ -17,14 +19,16 @@ namespace Presentation.Tests.Controllers;
 public class ProductsControllerTests
 {
     private readonly Mock<IProductService> _mockService;
+    private readonly Mock<ICreateProductUseCase> _mockUseCase;
     private ProductsController _controller;
     private readonly CancellationToken _token;
 
     public ProductsControllerTests()
     {
         // Arrange
+        _mockUseCase = new Mock<ICreateProductUseCase>();
         _mockService = new Mock<IProductService>();
-        _controller = new ProductsController(_mockService.Object)
+        _controller = new ProductsController(_mockService.Object, _mockUseCase.Object)
         {
             TempData = new TempDataDictionary(new DefaultHttpContext(), Mock.Of<ITempDataProvider>())
         };
@@ -221,11 +225,16 @@ public class ProductsControllerTests
     {
         // Arrange
         var product = new Product();
+
+        _mockUseCase.Setup(useCase => useCase.InvokeAsync(product, _token))
+            .Returns(Task.CompletedTask);
         
+        /*
         _mockService.Setup(service => service
                 .AddProductAsync(product, _token))
             .Returns(Task.CompletedTask);
-
+        */
+        
         // Act
         var result = await _controller.Create(product, _token);
 
@@ -239,3 +248,9 @@ public class ProductsControllerTests
             .AddProductAsync(product, _token), Times.Once);
     }
 }
+
+/*
+ ** Author: Luis René López
+ ** Website: https://github.com/luislopez-dev
+ ** Description: Open source Project
+ */

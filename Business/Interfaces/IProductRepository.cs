@@ -1,9 +1,9 @@
 ﻿/*
- * Author: Luis López
+ * Author: Luis René López
  * Website: https://github.com/luislopez-dev
- * Description: Training Project
+ * Description: Open source Project
  */
- 
+
 using Business.Models;
 
 namespace Business.Interfaces;
@@ -19,3 +19,9 @@ public interface IProductRepository
     public Task<List<Product>> GetProductsByNamePaginated(string name, CancellationToken cancellationToken);
     public int GetProductIdByGuid(Guid guid);
 }
+
+/*
+ ** Author: Luis René López
+ ** Website: https://github.com/luislopez-dev
+ ** Description: Open source Project
+ */

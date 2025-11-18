@@ -1,7 +1,7 @@
 ﻿/*
- * Author: Luis López
+ * Author: Luis René López
  * Website: https://github.com/luislopez-dev
- * Description: Training Project
+ * Description: Open source Project
  */
 
 namespace Business.Models;
@@ -19,3 +19,9 @@ public class Invoice
     
     public List<InvoiceProduct> InvoiceProducts { get; set; } = new List<InvoiceProduct>();
 }
+
+/*
+ ** Author: Luis René López
+ ** Website: https://github.com/luislopez-dev
+ ** Description: Open source Project
+ */

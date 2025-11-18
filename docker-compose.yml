@@ -1,4 +1,4 @@
-version: '3.8'
+# OPEN SOURCE PROJECT CREATED BY LUIS RENÉ LÓPEZ (https://github.com/luislopez-dev)
 
 services:
   
@@ -19,7 +19,11 @@ services:
     depends_on:
       - sqlserver
     ports:
-      - "8080:80"
+      - "8080:5000"
+    environment:
+      - ConnectionStrings__app=Server=sqlserver;Database=AppDb;User Id=sa;Password=%uuuuiiiPPPPCCC555555555;TrustServerCertificate=true;
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://0.0.0.0:5000      
     networks:
       - net
 

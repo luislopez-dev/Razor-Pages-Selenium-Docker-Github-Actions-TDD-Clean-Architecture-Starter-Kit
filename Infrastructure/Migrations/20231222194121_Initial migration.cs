@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ * Author: Luis René López
+ * Website: https://github.com/luislopez-dev
+ * Description: Open source Project
+ */
+
+
+using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable

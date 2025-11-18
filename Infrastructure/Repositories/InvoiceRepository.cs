@@ -1,7 +1,7 @@
 ﻿/*
- * Author: Luis López
+ * Author: Luis René López
  * Website: https://github.com/luislopez-dev
- * Description: Training Project
+ * Description: Open source Project
  */
 
 using System.Data.Common;
@@ -48,3 +48,10 @@ internal class InvoiceRepository: IInvoiceRepository
                 .ToListAsync(cancellationToken);
     }
 }
+
+
+/*
+ ** Author: Luis René López
+ ** Website: https://github.com/luislopez-dev
+ ** Description: Open source Project
+ */
