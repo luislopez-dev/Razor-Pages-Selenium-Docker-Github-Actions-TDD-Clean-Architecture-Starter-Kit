@@ -9,6 +9,9 @@ This template provides a clean, extensible structure that accelerates the develo
 
 **If you find this architecture valuable, please consider giving it a star ⭐. Your support helps me continue improving and expanding this template with new capabilities and enterprise-level features.**
 
+---
+
+[![Architecture Template Demo](https://img.youtube.com/vi/mJzvkAc4cLI/0.jpg)](https://www.youtube.com/watch?v=mJzvkAc4cLI)
 
 ---
 
@@ -143,14 +146,11 @@ You can reach me at:
 
 ---
 
-## Demonstration Video
-
-[![Architecture Template Demo](https://img.youtube.com/vi/mJzvkAc4cLI/0.jpg)](https://www.youtube.com/watch?v=mJzvkAc4cLI)
-
-### Crafted and maintained by [Luis López](https://github.com/luislopez-dev)
+## Build strong foundations. Deliver scalable systems.  
 
 ---
 
-## Build strong foundations. Deliver scalable systems.  
+### Crafted and maintained by [Luis López](https://github.com/luislopez-dev)
+
 
 
