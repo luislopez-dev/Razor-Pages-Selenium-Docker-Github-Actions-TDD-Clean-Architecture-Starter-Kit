@@ -73,22 +73,6 @@ Garantizando calidad, confiabilidad e integridad arquitectónica en toda la solu
 
 ---
 
-## Usando la Plantilla con `dotnet new`
-
-Esta arquitectura también está disponible como una **template package en NuGet**, permitiendo generar una solución enterprise completa con un solo comando.
-
-### **Instalar la Plantilla**
-
-```bash
-
-dotnet new install Enterprise.Architecture.Template
-
-dotnet new enterprise-architecture -n YourProjectName
-
-```
-
----
-
 ## Principios Clave
 
 - **Arquitectura Limpia**
