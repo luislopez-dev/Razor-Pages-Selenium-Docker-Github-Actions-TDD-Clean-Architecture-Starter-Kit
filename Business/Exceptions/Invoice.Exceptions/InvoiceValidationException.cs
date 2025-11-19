@@ -1,22 +1,18 @@
-﻿/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
+﻿using FluentValidation.Results;
 
-using FluentValidation.Results;
+namespace Business.Exceptions.Invoice.Exceptions;
 
-namespace Business.Exceptions.Invoice.Exceptions.ValidationExceptions;
-
+/// <summary>
+/// EXCEPTION FOR INVOICE VALIDATIONS
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Open source project: Enterprise-.Net-Architecture-Template
+/// </remarks>
 public class InvoiceValidationException: ValidationException
 {
     public InvoiceValidationException(List<ValidationFailure> failures) : base(failures)
     {
     }
 }
-
-/*
- ** Author: Luis René López
- ** Website: https://github.com/luislopez-dev
- ** Description: Open source Project
- */

@@ -1,16 +1,18 @@
-﻿/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
-
-using Business.Exceptions.Invoice.Exceptions.ValidationExceptions;
+﻿using Business.Exceptions.Invoice.Exceptions;
 using Business.Interfaces;
 using Business.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Presentation.Controllers;
 
+/// <summary>
+/// CONTROLLER FOR INVOICES
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Open source project: Enterprise-.Net-Architecture-Template
+/// </remarks>
 public class InvoicesController : BaseController
 {
     private readonly IUnitOfWork _unitOfWork;
@@ -76,9 +78,3 @@ public class InvoicesController : BaseController
         }
     }
 }
-
-/*
- ** Author: Luis René López
- ** Website: https://github.com/luislopez-dev
- ** Description: Open source Project
- */

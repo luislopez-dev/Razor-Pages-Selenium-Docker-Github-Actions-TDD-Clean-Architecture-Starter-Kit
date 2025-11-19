@@ -1,7 +1,7 @@
 /*
  * Author: Luis René López
  * Website: https://github.com/luislopez-dev
- * Description: Open source Project
+ * Description: Open source project: Enterprise-.Net-Architecture-Template
  */
 
 var builder = WebApplication.CreateBuilder(args);

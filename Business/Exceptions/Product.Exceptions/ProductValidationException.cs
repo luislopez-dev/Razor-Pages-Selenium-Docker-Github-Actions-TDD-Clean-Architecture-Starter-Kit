@@ -1,23 +1,18 @@
-﻿/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
-
-using FluentValidation.Results;
+﻿using FluentValidation.Results;
 
 namespace Business.Exceptions.Product.Exceptions;
 
+/// <summary>
+/// EXCEPTION FOR PRODUCT VALIDATION
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Open source project: Enterprise-.Net-Architecture-Template
+/// </remarks>
 public class ProductValidationException: ValidationException
 {
     public ProductValidationException(List<ValidationFailure> failures) : base(failures)
     {
     }
 }
-
-
-/*
- ** Author: Luis René López
- ** Website: https://github.com/luislopez-dev
- ** Description: Open source Project
- */

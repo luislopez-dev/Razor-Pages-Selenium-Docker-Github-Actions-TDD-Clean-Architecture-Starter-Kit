@@ -1,7 +1,7 @@
 /*
  * Author: Luis López
  * Website: https://github.com/luislopez-dev
- * Description: Training Project
+ * Description:  Open source project: Enterprise-.Net-Architecture-Template
  */
 
 using Infrastructure.Data;

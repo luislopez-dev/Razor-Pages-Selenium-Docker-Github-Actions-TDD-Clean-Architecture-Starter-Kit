@@ -1,13 +1,13 @@
-﻿/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
+﻿namespace Business.Models;
 
-using System.Collections;
-
-namespace Business.Models;
-
+/// <summary>
+/// Product Model
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Open source project: Enterprise-.Net-Architecture-Template
+/// </remarks>
 public class Product
 {
     public int Id { get; set; }

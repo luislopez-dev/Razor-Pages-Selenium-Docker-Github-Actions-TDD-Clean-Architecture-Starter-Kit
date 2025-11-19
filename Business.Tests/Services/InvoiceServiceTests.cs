@@ -1,18 +1,13 @@
-﻿namespace Application.Tests.Services;
+﻿namespace Business.Tests.Services;
 
-/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
-
+/// <summary>
+/// UNIT TEST responsible for testing INVOICE SERVICE
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev  
+/// </remarks>
 public class InvoiceServiceTests
 {
     
 }
-
-/*
- ** Author: Luis René López
- ** Website: https://github.com/luislopez-dev
- ** Description: Open source Project
- */

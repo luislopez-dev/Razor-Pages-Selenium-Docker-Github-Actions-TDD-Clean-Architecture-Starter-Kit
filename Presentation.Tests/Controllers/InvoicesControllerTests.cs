@@ -1,18 +1,13 @@
 ﻿namespace Presentation.Tests.Controllers;
 
-/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
-
+/// <summary>
+/// UNIT TEST responsible for testing INVOICES CONTROLLER
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev  
+/// </remarks>
 public class InvoicesControllerTests
 {
     
 }
-
-/*
- ** Author: Luis René López
- ** Website: https://github.com/luislopez-dev
- ** Description: Open source Project
- */

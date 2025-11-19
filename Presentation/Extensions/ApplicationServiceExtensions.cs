@@ -1,13 +1,7 @@
-﻿/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
-
-using Application.Services;
-using Application.UseCases;
+﻿using Application.UseCases;
 using Business.Interfaces;
 using Business.Models;
+using Business.Services;
 using Business.UseCases;
 using Business.Validations;
 using FluentValidation;
@@ -17,6 +11,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Presentation.Extensions;
 
+/// <summary>
+/// DEPENDENCY INJECTION CONTAINER
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Open source project: Enterprise-.Net-Architecture-Template
+/// </remarks>
 public static class ApplicationServiceExtensions
 {
     public static IServiceCollection AddApplicationServices(this IServiceCollection services, IConfiguration config)
@@ -36,9 +38,3 @@ public static class ApplicationServiceExtensions
         return services;
     }
 }
-
-/*
- ** Author: Luis René López
- ** Website: https://github.com/luislopez-dev
- ** Description: Open source Project
- */

@@ -1,9 +1,4 @@
-﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
-
+﻿
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Remote;

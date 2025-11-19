@@ -1,18 +1,20 @@
-﻿/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
-
-
-using Business.Exceptions.Product.Exceptions;
+﻿using Business.Exceptions.Product.Exceptions;
 using Business.Interfaces;
 using Business.Models;
 using FluentValidation;
 using FluentValidation.Results;
 
-namespace Application.Services;
+namespace Business.Services;
 
+
+/// <summary>
+/// SERVICE CLASS POR PRODUCTS
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Open source project: Enterprise-.Net-Architecture-Template
+/// </remarks>
 public class ProductService: IProductService
 {
     private readonly IUnitOfWork _unitOfWork;

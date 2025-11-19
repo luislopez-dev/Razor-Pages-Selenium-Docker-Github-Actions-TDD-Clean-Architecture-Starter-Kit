@@ -1,5 +1,11 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AController_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003F229f19bea936462fa46da1dd6ab67b79c1708_003F94_003F12230fb4_003FController_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3b13f752_002D858e_002D4a34_002Db1cb_002D410d5733be01/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Solution /&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1c8ce013_002D1d37_002D42eb_002Db8dd_002Df646152a59ef/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;Application.Tests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;Project Location="C:\Users\DELL\Proyectos\.Net-web-application-prototype\Application.Tests" Presentation="&amp;lt;Application.Tests&amp;gt;" /&gt;&#xD;
+    &lt;Project Location="C:\Users\DELL\Proyectos\.Net-web-application-prototype\Business.Tests" Presentation="&amp;lt;Business.Tests&amp;gt;" /&gt;&#xD;
+    &lt;Project Location="C:\Users\DELL\Proyectos\.Net-web-application-prototype\Infrastructure.Tests" Presentation="&amp;lt;Infrastructure.Tests&amp;gt;" /&gt;&#xD;
+    &lt;Project Location="C:\Users\DELL\Proyectos\.Net-web-application-prototype\Presentation.Tests" Presentation="&amp;lt;Presentation.Tests&amp;gt;" /&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>

@@ -1,11 +1,13 @@
-﻿/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
+﻿namespace Business.Models;
 
-namespace Business.Models;
-
+/// <summary>
+/// Invoice Model
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Open source project: Enterprise-.Net-Architecture-Template
+/// </remarks>
 public class Invoice
 {
     public int Id { get; set; }

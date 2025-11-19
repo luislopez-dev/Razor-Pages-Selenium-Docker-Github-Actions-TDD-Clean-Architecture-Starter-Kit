@@ -1,11 +1,4 @@
-﻿/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open Source Project
- */
-
-using Application.UseCases;
-using Business.Interfaces;
+﻿using Business.Interfaces;
 using Business.Models;
 using Business.UseCases;
 using Microsoft.AspNetCore.Http;
@@ -16,6 +9,13 @@ using Presentation.Controllers;
 
 namespace Presentation.Tests.Controllers;
 
+/// <summary>
+/// UNIT TEST responsible for testing PRODUCTS CONTROLLER
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev  
+/// </remarks>
 public class ProductsControllerTests
 {
     private readonly Mock<IProductService> _mockService;
@@ -240,9 +240,3 @@ public class ProductsControllerTests
         
     }
 }
-
-/*
- ** Author: Luis René López
- ** Website: https://github.com/luislopez-dev
- ** Description: Open source Project
- */

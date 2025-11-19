@@ -1,14 +1,16 @@
-﻿/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
-
-using Business.Models;
+﻿using Business.Models;
 using FluentValidation;
 
 namespace Business.Validations;
 
+/// <summary>
+/// VALIDATION CLASS FOR INVOICES
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Open source project: Enterprise-.Net-Architecture-Template
+/// </remarks>
 public class InvoiceValidator: AbstractValidator<Invoice>
 {
     public InvoiceValidator()

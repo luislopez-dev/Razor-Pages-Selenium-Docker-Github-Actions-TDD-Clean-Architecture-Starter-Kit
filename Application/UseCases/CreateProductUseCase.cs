@@ -5,13 +5,21 @@ using Business.UseCases;
 namespace Application.UseCases;
 
 /// <summary>
-/// 
+/// Use case responsible for creating a new product
 /// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev  
+/// </remarks>
 public class CreateProductUseCase : ICreateProductUseCase
 {
 
     private IProductService _productService;
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="productService"></param>
     public CreateProductUseCase(IProductService productService)
     {
         this._productService = productService;

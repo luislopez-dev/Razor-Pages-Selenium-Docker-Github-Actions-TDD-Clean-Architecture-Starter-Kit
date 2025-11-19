@@ -1,14 +1,16 @@
-﻿/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
-
-using Business.Models;
+﻿using Business.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Data;
 
+/// <summary>
+/// ENTITY FRAMEWORK DATA CONTEXT 
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Open source project: Enterprise-.Net-Architecture-Template
+/// </remarks>
 public class DataContext: DbContext
 {
     public DataContext(DbContextOptions<DataContext> options) : base(options)

@@ -1,18 +1,15 @@
-﻿/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
+﻿
+namespace Business.Exceptions.Invoice.Exceptions;
 
-namespace Business.Exceptions.Invoice.Exceptions.ValidationExceptions;
-
+/// <summary>
+/// EXCEPTION FOR GETTING INVOICES
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Open source project: Enterprise-.Net-Architecture-Template
+/// </remarks>
 public class GetInvoicesException: BusinessException
 {
     
 }
-
-/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */

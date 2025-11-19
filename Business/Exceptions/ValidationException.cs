@@ -1,13 +1,15 @@
-﻿/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
-
-using FluentValidation.Results;
+﻿using FluentValidation.Results;
 
 namespace Business.Exceptions;
 
+/// <summary>
+/// BASE EXCEPTION FOR VALIDATIONS
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Open source project: Enterprise-.Net-Architecture-Template
+/// </remarks>
 public class ValidationException: Exception
 {
     public List<ValidationFailure> ValidationFailures { get; }
@@ -17,9 +19,3 @@ public class ValidationException: Exception
         ValidationFailures = validationFailures;
     }
 }
-
-/*
- ** Author: Luis René López
- ** Website: https://github.com/luislopez-dev
- ** Description: Open source Project
- */

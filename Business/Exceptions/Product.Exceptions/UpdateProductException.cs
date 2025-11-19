@@ -1,18 +1,14 @@
-﻿/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
+﻿namespace Business.Exceptions.Product.Exceptions;
 
-namespace Business.Exceptions.Product.Exceptions;
-
+/// <summary>
+/// EXCEPTION FOR UPDATING PRODUCT
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Open source project: Enterprise-.Net-Architecture-Template
+/// </remarks>
 public class UpdateProductException: BusinessException
 {
     
 }
-
-/*
- ** Author: Luis René López
- ** Website: https://github.com/luislopez-dev
- ** Description: Open source Project
- */

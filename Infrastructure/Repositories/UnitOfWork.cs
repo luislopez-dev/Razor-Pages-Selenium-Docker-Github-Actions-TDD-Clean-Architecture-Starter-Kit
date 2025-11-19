@@ -1,17 +1,17 @@
-﻿/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
-
-using System.Transactions;
-using Business.Interfaces;
+﻿using Business.Interfaces;
 using Infrastructure.Data;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 
 namespace Infrastructure.Repositories;
 
+/// <summary>
+/// UNIT OF WORK PATTERN IMPLEMENTATION
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Open source project: Enterprise-.Net-Architecture-Template
+/// </remarks>
 public class UnitOfWork: IUnitOfWork
 {
     private readonly DataContext _context;

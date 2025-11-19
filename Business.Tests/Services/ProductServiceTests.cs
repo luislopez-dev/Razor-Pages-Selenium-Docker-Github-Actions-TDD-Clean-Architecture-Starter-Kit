@@ -1,18 +1,19 @@
-﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
-
-using Application.Services;
-using Business.Interfaces;
+﻿using Business.Interfaces;
 using Business.Models;
+using Business.Services;
 using FluentValidation;
 using FluentValidation.Results;
 using Moq;
 
-namespace Application.Tests.Services;
+namespace Business.Tests.Services;
 
+/// <summary>
+/// UNIT TEST responsible for testing PRODUCT SERVICE
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev  
+/// </remarks>
 public class ProductServiceTests
 {
     private readonly Mock<IValidator<Product>> _mockValidator;

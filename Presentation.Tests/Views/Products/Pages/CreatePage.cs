@@ -1,13 +1,14 @@
-﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
-
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 
 namespace Presentation.Tests.Views.Products.Pages;
 
+/// <summary>
+///  Page Object Model for testing PRODUCT - CREATE PAGE
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev  
+/// </remarks>
 public class CreatePage
 {
     private readonly IWebDriver _driver;

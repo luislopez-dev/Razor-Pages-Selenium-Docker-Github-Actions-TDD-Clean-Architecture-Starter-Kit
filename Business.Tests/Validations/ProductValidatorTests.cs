@@ -1,14 +1,15 @@
-﻿/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
-
-using Business.Models;
+﻿using Business.Models;
 using Business.Validations;
 
 namespace Business.Tests.Validations;
 
+/// <summary>
+/// UNIT TEST responsible for testing PRODUCT
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev  
+/// </remarks>
 public class ProductValidatorTests
 {
     [Fact]
@@ -29,9 +30,3 @@ public class ProductValidatorTests
             e.ErrorMessage == "¡El nombre del producto no debe estar vacio!");
     }
 }
-
-/*
- ** Author: Luis René López
- ** Website: https://github.com/luislopez-dev
- ** Description: Open source Project
- */

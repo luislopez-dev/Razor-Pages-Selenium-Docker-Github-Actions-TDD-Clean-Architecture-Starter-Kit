@@ -1,20 +1,21 @@
-﻿/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
-
-
-using System.Transactions;
-using Business.Exceptions.Invoice.Exceptions.ValidationExceptions;
+﻿using System.Transactions;
+using Business.Exceptions.Invoice.Exceptions;
 using Business.Interfaces;
 using Business.Models;
-using Business.Validations;
 using FluentValidation;
 using FluentValidation.Results;
 
-namespace Application.Services;
+namespace Business.Services;
 
+
+/// <summary>
+/// SERVICE CLASS POR INVOICES
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Open source project: Enterprise-.Net-Architecture-Template
+/// </remarks>
 public class InvoiceService: IInvoiceService
 {
     private readonly IUnitOfWork _unitOfWork;

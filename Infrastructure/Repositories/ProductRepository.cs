@@ -1,17 +1,18 @@
-﻿/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
-
-using System.Data.Common;
-using Business.Interfaces;
+﻿using Business.Interfaces;
 using Business.Models;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repositories;
 
+/// <summary>
+/// PRODUCT REPOSITORY IMPLEMENTATION
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Open source project: Enterprise-.Net-Architecture-Template
+/// </remarks>
 public class ProductRepository: IProductRepository
 {
     private readonly DataContext _context;

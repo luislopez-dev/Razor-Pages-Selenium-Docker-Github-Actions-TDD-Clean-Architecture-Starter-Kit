@@ -1,11 +1,13 @@
-﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
+﻿namespace Presentation.Middleware;
 
-namespace Presentation.Middleware;
-
+/// <summary>
+/// 
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Open source project: Enterprise-.Net-Architecture-Template
+/// </remarks>
 public class ExceptionMiddleware
 {
     private readonly RequestDelegate _next;
@@ -31,9 +33,3 @@ public class ExceptionMiddleware
         }
     }
 }
-
-/*
- ** Author: Luis René López
- ** Website: https://github.com/luislopez-dev
- ** Description: Open source Project
- */

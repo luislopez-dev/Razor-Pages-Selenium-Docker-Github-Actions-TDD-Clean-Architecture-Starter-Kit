@@ -4,7 +4,6 @@
  * Description: Open Source Project
  */
 
-using Application.Services;
 using Business.Interfaces;
 using Business.Models;
 using FluentValidation;
@@ -13,7 +12,13 @@ using Moq;
 
 namespace Application.Tests.UseCases;
 
-
+/// <summary>
+/// UNIT TEST responsible for testing CreateProductUseCase
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev  
+/// </remarks>
 public class CreateProductUseCaseTest
 {
     private readonly Mock<IProductService> _mockService;

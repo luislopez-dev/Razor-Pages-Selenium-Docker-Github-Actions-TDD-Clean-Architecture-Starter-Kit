@@ -1,10 +1,4 @@
-﻿/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
-
-using Business.Interfaces;
+﻿using Business.Interfaces;
 using Business.Models;
 using Infrastructure.Data;
 using Infrastructure.Repositories;
@@ -12,6 +6,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Tests.Repositories;
 
+/// <summary>
+/// INTEGRATIONA TEST responsible for testing PRODUCT REPOSITORY
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev  
+/// </remarks>
 public class ProductRepositoryIntegrationTests: IDisposable
 {
     private readonly CancellationToken _cancellationToken;
@@ -277,9 +278,3 @@ public class ProductRepositoryIntegrationTests: IDisposable
         Dispose();
     }
 }
-
-/*
- ** Author: Luis René López
- ** Website: https://github.com/luislopez-dev
- ** Description: Open source Project
- */

@@ -1,4 +1,4 @@
-﻿namespace Presentation.Tests.Views.Products.Pages;
+﻿namespace Presentation.Tests.Views.Products.Tests;
 
 public class IndexTests
 {
