@@ -11,6 +11,8 @@ This template provides a clean, extensible structure that accelerates the develo
 
 ---
 
+**Youtube video:**
+
 [![Architecture Template Demo](https://img.youtube.com/vi/BXW7uFoATsk/0.jpg)](https://www.youtube.com/watch?v=BXW7uFoATsk)
 
 ---
