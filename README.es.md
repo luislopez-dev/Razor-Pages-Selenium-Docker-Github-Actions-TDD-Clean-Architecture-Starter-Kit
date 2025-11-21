@@ -39,7 +39,7 @@ La solución está organizada en capas independientes y claramente definidas, di
 <img width="750" height="400" alt="enterprise-dotnet-architecture" src="https://github.com/user-attachments/assets/e106d323-4e53-4085-9be0-af0e9a09146c" />
 
 ### **Presentation**
-Gestiona los endpoints de la API, modelos de request/response, controladores y preocupaciones transversales relacionadas con las solicitudes HTTP.
+Gestiona los endpoints de la API, Vistas, modelos de request/response, controladores y preocupaciones transversales relacionadas con las solicitudes HTTP.
 
 ### **Application**
 Contiene los casos de uso, reglas de negocio, lógica de aplicación y orquestación.
