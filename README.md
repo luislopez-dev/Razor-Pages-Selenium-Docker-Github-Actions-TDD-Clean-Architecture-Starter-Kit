@@ -3,7 +3,7 @@
 
 # Enterprise .NET Architecture Template
 
-A robust, enterprise-grade architectural baseline powered by Clean Architecture, featuring modular, scalable, and fully testable .NET components — engineered by [Luis López](https://github.com/luislopez-dev).
+A robust architectural baseline powered by Clean Architecture, featuring modular, scalable, and fully testable .NET components — engineered by [Luis López](https://github.com/luislopez-dev).
 
 # Table of contents
 
