@@ -1,7 +1,7 @@
 **Languages:**  
 [🇬🇧 English](README.md) | [🇬🇹 Español](README.es.md)
 
-## Enterprise .NET Architecture Template
+## Razor Pages TDD & CI Template for .NET
 
 ## Overview
 This project serves as a solid foundation for building web applications with Razor Pages. Its goal is to provide a clear and maintainable starting point that can grow without complications. It is designed for teams or individual developers who want to begin with a well-defined structure without having to reinvent essential configurations.
