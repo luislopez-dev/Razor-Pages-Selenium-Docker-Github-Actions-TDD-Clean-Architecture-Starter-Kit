@@ -6,6 +6,8 @@
 ## Visión general
 Este proyecto funciona como una base sólida para construir aplicaciones web con Razor Pages. Su objetivo es ofrecer un punto de partida claro y mantenible que pueda crecer sin complicaciones. Está pensado para equipos o desarrolladores individuales que desean comenzar con una estructura bien definida sin tener que reinventar configuraciones esenciales.
 
+![projects-dependency-diagram.png](../Pictures/projects-dependency-diagram.png)
+
 ## Enfoque de desarrollo
 La solución sigue un flujo de trabajo orientado a TDD. Incluye pruebas unitarias y de integración que ayudan a validar los componentes clave y garantizar la calidad del código desde etapas tempranas. La intención es favorecer ciclos de desarrollo más seguros y predecibles.
 

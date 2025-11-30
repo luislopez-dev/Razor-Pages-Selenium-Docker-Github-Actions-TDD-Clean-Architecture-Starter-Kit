@@ -1,10 +1,11 @@
-﻿using Business.Exceptions.Product.Exceptions;
+﻿using Application.Repositories;
+using Business.Exceptions.Product.Exceptions;
 using Business.Interfaces;
 using Business.Models;
 using FluentValidation;
 using FluentValidation.Results;
 
-namespace Business.Services;
+namespace Application.Services;
 
 
 /// <summary>

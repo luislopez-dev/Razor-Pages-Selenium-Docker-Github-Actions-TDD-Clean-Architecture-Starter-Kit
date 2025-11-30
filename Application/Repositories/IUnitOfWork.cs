@@ -1,13 +1,15 @@
-﻿/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
+﻿using Microsoft.EntityFrameworkCore.Storage;
 
-using Microsoft.EntityFrameworkCore.Storage;
+namespace Application.Repositories;
 
-namespace Business.Interfaces;
-
+/// <summary>
+/// UNIT OF WORK INTERFACE
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Open source project: Enterprise-.Net-Architecture-Template
+/// </remarks>
 public interface IUnitOfWork
 {
     IProductRepository ProductRepository { get; }
@@ -23,9 +25,3 @@ public interface IUnitOfWork
     IDbContextTransaction BeginTransaction(CancellationToken cancellationToken);
     
 }
-
-/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */

@@ -1,13 +1,15 @@
-﻿/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
+﻿using Business.Models;
 
-using Business.Models;
+namespace Application.Repositories;
 
-namespace Business.Interfaces;
-
+/// <summary>
+/// PRODUCT REPOSITORY REPOSITORY
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Open source project: Enterprise-.Net-Architecture-Template
+/// </remarks>
 public interface IProductRepository
 {
     public Task AddProductAsync(Product product, CancellationToken cancellationToken);
@@ -19,9 +21,3 @@ public interface IProductRepository
     public Task<List<Product>> GetProductsByNamePaginated(string name, CancellationToken cancellationToken);
     public int GetProductIdByGuid(Guid guid);
 }
-
-/*
- ** Author: Luis René López
- ** Website: https://github.com/luislopez-dev
- ** Description: Open source Project
- */
