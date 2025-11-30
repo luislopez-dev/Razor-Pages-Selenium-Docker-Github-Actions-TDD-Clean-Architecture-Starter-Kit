@@ -25,4 +25,4 @@ For a short demonstration, I recorded the following video:
 ## Future Considerations
 Although the project already provides a practical and functional foundation, the future may include the possibility of adopting more clean architecture principles and introducing DDD practices if needed to handle more complex scenarios.
 
-### Project created and mainteined by [Luis López](https://github.com/luislopez-dev)
+## Project created and mainteined by [Luis López](https://github.com/luislopez-dev)
