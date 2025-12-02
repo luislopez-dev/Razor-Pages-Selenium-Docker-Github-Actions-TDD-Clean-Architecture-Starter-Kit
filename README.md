@@ -1,5 +1,5 @@
 **Languages:**  
-[🌎 English](README.en.md) | [🇬🇹 Español](README.md)
+[🌎 English](README.md) | [🇬🇹 Español](README.en.md)
 
 ## Enterprise Template for apps in .NET and Razor Pages
 
