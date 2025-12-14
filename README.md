@@ -1,26 +1,24 @@
 **Languages:**  
-[🇬🇹 Español](README.es.md) | [🌎 English](README.md)
+[🇬🇹 Español](README.md) | [🌎 English](README.en.md)
 
-## Enterprise Template for apps in .NET and Razor Pages
+## Plantilla Empresarial para aplicaciones en Razor Pages y .NET
 
-## Instroduction
+## Instroducción
+Este proyecto proporciona una base sólida para construir aplicaciones web con Razor Pages. Su objetivo es ofrecer un punto de partida claro y mantenible que pueda crecer sin complicaciones. Está pensado para equipos o desarrolladores individuales que desean comenzar con una estructura bien definida sin tener que reinventar configuraciones esenciales.
 
-This project provides a solid foundation for building web applications with Razor Pages. Its goal is to provide a clear and maintainable starting point that can grow without complications. It is designed for teams or individual developers who want to begin with a well-defined structure without having to reinvent essential configurations.
+<img width="578" height="404" alt="projects-dependency-diagram" src="https://github.com/user-attachments/assets/0764a3f9-4737-4d57-aae4-deaf11605441" />
 
-<img width="578" height="404" alt="520527297-0764a3f9-4737-4d57-aae4-deaf11605441" src="https://github.com/user-attachments/assets/43d80601-16a6-4d89-8933-d0ae8cf0a267" />
+## Enfoque de desarrollo
+La solución sigue un flujo de trabajo orientado a TDD, incorporando pruebas unitarias y de integración para validar los componentes clave y garantizar la calidad del código desde las primeras etapas del desarrollo. Además, se implementan pruebas end-to-end utilizando Selenium para verificar flujos críticos de usuario en un entorno de navegador real. Este enfoque ayuda a respaldar ciclos de desarrollo más seguros, predecibles y confiables.
 
-## Development Approach
-The solution follows a TDD-oriented workflow, incorporating unit and integration tests to validate key components and ensure code quality from the early stages of development. In addition, end-to-end tests are implemented using Selenium to verify critical user flows in a real browser environment. This approach helps support safer, more predictable, and reliable development cycles.
+## Integración continua
+El repositorio incluye un pipeline de CI configurado con GitHub Actions. Este flujo automatiza la ejecución de pruebas y verifica que cada cambio cumpla con los estándares definidos.
 
-## Continuous Integration
-The repository includes a CI pipeline built with GitHub Actions. This workflow automates test execution and verifies that every change meets the defined standards. 
+## Entorno de ejecución
+Para simplificar la configuración y asegurar consistencia entre entornos, el proyecto utiliza Docker Compose. La configuración incluye soporte para SQL Server, lo que permite replicar fácilmente un entorno de base de datos realista tanto para desarrollo como para pruebas.
 
-## Runtime Environment
-To simplify setup and ensure consistency across environments, the project uses Docker Compose. The configuration includes support for SQL Server, allowing you to easily replicate a realistic database environment for both development and testing.
+## Video en YouTube
+Para una breve demostración, grabé el siguiente video:
+[Ver en YouTube](https://youtu.be/0nfXpb7OsPA?si=28_t2m6mDIMfSiVw)
 
-## YouTube Video
-For a short demonstration, I recorded the following video:
-
-[Watch on YouTube](https://youtu.be/0nfXpb7OsPA?si=28_t2m6mDIMfSiVw)
-
-## Project created and maintained by [Luis López](https://github.com/luislopez-dev)
+## Proyecto creado y mantenido por [Luis López](https://github.com/luislopez-dev)
