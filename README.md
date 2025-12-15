@@ -4,7 +4,7 @@
 ## **Enterprise Template for apps in .NET and Razor Pages**
 ### Powered by Selenium, Clean Architecture, TDD, Docker & GitHub Actions
 
-## Instroduction
+## Introduction
 
 This project provides a solid foundation for building web applications with Razor Pages. Its goal is to provide a clear and maintainable starting point that can grow without complications. It is designed for teams or individual developers who want to begin with a well-defined structure without having to reinvent essential configurations.
 
