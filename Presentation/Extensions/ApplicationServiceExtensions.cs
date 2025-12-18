@@ -1,8 +1,8 @@
-﻿using Application.Repositories;
+﻿using Application.Interfaces;
+using Application.Repositories;
 using Application.Services;
 using Business.Entities;
 using Business.Models;
-using Business.Services;
 using Business.Validations;
 using FluentValidation;
 using Infrastructure.Data;

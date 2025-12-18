@@ -1,6 +1,6 @@
 ﻿using Business.Entities;
 
-namespace Business.Services;
+namespace Application.Interfaces;
 
 /// <summary>
 /// PRODUCT SERVICE INTERFACE

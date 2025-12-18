@@ -1,6 +1,6 @@
 ﻿using Business.Models;
 
-namespace Business.Services;
+namespace Application.Interfaces;
 
 /// <summary>
 /// INVOICE SERVICE INTERFACE
