@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This project demonstrates a core foundation for building enterprise web applications with integrated DevOps capabilities. It is designed for teams or individual developers who want to begin with a well-defined structure without having to reinvent essential configurations.
+This project demonstrates a core foundation for building enterprise web applications with integrated DevOps capabilities.
 
 Some patterns like DTOs and isolated Use Cases were omitted due to time constraints. I’m archiving it as a structural reference.
 
