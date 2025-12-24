@@ -16,7 +16,7 @@ namespace Presentation.Extensions;
 /// <remarks>
 /// Author: Luis López  
 /// GitHub: https://github.com/luislopez-dev
-/// Description: Open source project: Enterprise-.Net-Architecture-Template
+/// Description: Open source project: .NET-Clean-DevOps-Architecture
 /// </remarks>
 public static class ApplicationServiceExtensions
 {

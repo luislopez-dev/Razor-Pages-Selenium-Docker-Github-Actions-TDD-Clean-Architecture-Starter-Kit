@@ -8,7 +8,7 @@ namespace Domain.Entities;
 /// <remarks>
 /// Author: Luis López  
 /// GitHub: https://github.com/luislopez-dev
-/// Description: Open source project: Enterprise-.Net-Architecture-Template
+/// Description: Open source project: .NET-Clean-DevOps-Architecture
 /// </remarks>
 public class InvoiceProduct
 {
