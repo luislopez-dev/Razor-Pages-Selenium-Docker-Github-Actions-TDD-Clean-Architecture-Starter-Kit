@@ -40,7 +40,7 @@ The repositories in this template could be refactored through a generic reposito
 
 The repository includes a CI pipeline built with GitHub Actions. This workflow automates test execution and verifies that every change meets the defined standards. 
 
-<img width="902" height="666" alt="Project (2)" src="https://github.com/user-attachments/assets/3d5468a1-ed90-4dae-bb29-f89b0c82208c" />
+<img width="902" height="666" alt="Project (2)" src="https://github.com/user-attachments/assets/f614ae39-3be4-493f-9483-d5f1c41de957" />
 
 ## Business Logic
 
