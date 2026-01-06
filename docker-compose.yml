@@ -6,7 +6,7 @@ services:
     image: mcr.microsoft.com/mssql/server:2019-latest
     environment:
       ACCEPT_EULA: "Y"
-      SA_PASSWORD: "%uuuuiiiPPPPCCC555555555"
+      SA_PASSWORD: ${DB_PASSWORD}
     ports:
       - "1401:1433"
     networks:
@@ -21,7 +21,7 @@ services:
     ports:
       - "8080:5000"
     environment:
-      - ConnectionStrings__app=Server=sqlserver;Database=AppDb;User Id=sa;Password=%uuuuiiiPPPPCCC555555555;TrustServerCertificate=true;
+      - ConnectionStrings__app=Server=sqlserver;Database=${DB_NAME};User Id=${DB_USER};Password=${DB_PASSWORD};TrustServerCertificate=true;
       - ASPNETCORE_ENVIRONMENT=Production
       - ASPNETCORE_URLS=http://0.0.0.0:5000      
     networks:
