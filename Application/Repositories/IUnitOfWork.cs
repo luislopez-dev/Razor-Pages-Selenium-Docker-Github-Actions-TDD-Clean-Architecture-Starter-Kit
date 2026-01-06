@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore.Storage;
+﻿using Application.Wrappers;
 
 namespace Application.Repositories;
 
@@ -22,6 +22,5 @@ public interface IUnitOfWork
     
     bool HasChanges();
     
-    IDbContextTransaction BeginTransaction(CancellationToken cancellationToken);
-    
+    Task<IDbTransaction> BeginTransactionAsync(CancellationToken cancellationToken);    
 }

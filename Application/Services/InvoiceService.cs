@@ -39,8 +39,7 @@ public class InvoiceService: IInvoiceService
             throw new InvoiceValidationException(validation.Errors);
             
         // Begin Transaction
-        await using var transaction = _unitOfWork
-            .BeginTransaction(cancellationToken);
+        using var transaction = await _unitOfWork.BeginTransactionAsync(cancellationToken);
         
         try
         {

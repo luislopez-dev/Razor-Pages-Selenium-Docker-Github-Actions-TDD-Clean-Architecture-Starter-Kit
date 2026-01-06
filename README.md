@@ -1,12 +1,14 @@
 # **Software & DevOps Architecture in .NET**
 
-# <sub> Powered by Selenium, CA Principles, TDD, Docker & GitHub Actions </sub>
+# <sub> Powered by Selenium, CA Principles, Docker & GitHub Actions </sub>
 
 ## Engineered by [Luis René López](https://github.com/luislopez-dev)
 
 ## Introduction
 
-This repository is intended for educational and experimental purposes only. It is not production-ready and should not be used in live or critical environments.
+<strong>This repository is intended for educational and experimental purposes only. It is not production-ready and should not be used in live or critical environments.</strong>
+
+Dto Pattern and isolated use cases have been omitted due to time constraints. I will continue to refine this project in future updates.
 
 ## Business Logic
 
@@ -20,19 +22,19 @@ This project emulates an inventory and billing management system.
 
 ### Domain
 
-<strong>Contains the core business rules.</strong>
+Contains the core business rules.
 
 ### Application
 
-<strong>Defines the application services and coordinates communication between the presentation layer and the business logic.</strong>
+Defines the application services and coordinates communication between the presentation layer and the business logic.
 
 ### Infrastructure
 
-<strong>Implements technical details such as data access and external services.</strong>
+Implements technical details such as data access and external services.
 
 ### Presentation
 
-<strong>Contains the logic that handles user interaction.</strong>
+Contains the logic that handles user interaction.
 
 ## DevOps
 
@@ -41,10 +43,10 @@ The repository includes a CI pipeline built with GitHub Actions. This workflow a
 <img width="902" height="666" alt="Project (2)" src="https://github.com/user-attachments/assets/f614ae39-3be4-493f-9483-d5f1c41de957" />
 
 ## Runtime Environment
-The project uses Docker Compose for consistent environment setup. This includes SQL Server support, enabling easy replication of realistic database environments for both development and testing.
+The project uses Docker Compose 🐋 for consistent environment setup. This includes SQL Server support 🛢, enabling easy replication of realistic database environments for both development and testing.
 
 ## Testing
-The solution follows a TDD workflow with unit and integration tests to ensure early code quality. Additionally, Selenium is used for end-to-end testing to verify critical user flows in a real browser.
+The solution follows a TDD workflow with unit and integration tests to ensure early code quality 🧪. Additionally, Selenium is used for end-to-end testing to verify critical user flows in a real browser.
 
 ## YouTube Video
 For a short demonstration, I recorded the following video:

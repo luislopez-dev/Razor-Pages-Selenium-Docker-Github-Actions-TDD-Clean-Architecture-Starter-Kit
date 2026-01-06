@@ -1,17 +1,13 @@
 ﻿using Application.Interfaces;
-using Application.Repositories;
 using Application.Services;
 using Application.Validations;
 using Domain.Entities;
 using FluentValidation;
-using Infrastructure.Data;
-using Infrastructure.Repositories;
-using Microsoft.EntityFrameworkCore;
 
-namespace Presentation.Extensions;
+namespace Application.Extensions;
 
 /// <summary>
-/// DEPENDENCY INJECTION CONTAINER
+/// DEPENDENCY INJECTION EXTENSION FOR APPLICATION LAYER
 /// </summary>
 /// <remarks>
 /// Author: Luis López  
@@ -21,12 +17,6 @@ public static class ApplicationServiceExtensions
 {
     public static IServiceCollection AddApplicationServices(this IServiceCollection services, IConfiguration config)
     {
-        services.AddDbContext<DataContext>(opt =>
-            {
-                opt.UseSqlServer(config.GetConnectionString("app"));
-            }   
-        );        
-        services.AddScoped<IUnitOfWork, UnitOfWork>();
         services.AddScoped<IProductService, ProductService>();
         services.AddScoped<IInvoiceService, InvoiceService>();
         services.AddScoped<IValidator<Product>, ProductValidator>();

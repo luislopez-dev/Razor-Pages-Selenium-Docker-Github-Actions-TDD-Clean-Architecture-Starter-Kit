@@ -1,5 +1,7 @@
 ﻿using Application.Repositories;
+using Application.Wrappers;
 using Infrastructure.Data;
+using Infrastructure.Wrappers;
 using Microsoft.EntityFrameworkCore.Storage;
 
 namespace Infrastructure.Repositories;
@@ -34,5 +36,11 @@ public class UnitOfWork: IUnitOfWork
     public IDbContextTransaction BeginTransaction(CancellationToken cancellationToken)
     {
         return _context.Database.BeginTransaction();
+    }
+    
+    public async Task<IDbTransaction> BeginTransactionAsync(CancellationToken ct)
+    {
+        var transaction = await _context.Database.BeginTransactionAsync(ct);
+        return new DbTransactionWrapper(transaction); // Envolvemos la transacción de EF
     }
 }

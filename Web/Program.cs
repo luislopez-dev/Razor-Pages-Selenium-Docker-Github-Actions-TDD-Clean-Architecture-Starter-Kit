@@ -1,12 +1,13 @@
-
+using Application.Extensions;
 using Infrastructure.Data;
+using Infrastructure.Extensions;
 using Microsoft.EntityFrameworkCore;
-using Presentation.Extensions;
 using Presentation.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddApplicationServices(builder.Configuration);
+builder.Services.AddPersistenceServiceExtensions(builder.Configuration);
 
 builder.Services.AddRazorPages();
 

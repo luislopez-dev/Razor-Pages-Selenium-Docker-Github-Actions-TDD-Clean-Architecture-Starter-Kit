@@ -26,7 +26,7 @@ public class ProductService: IProductService
         _validator = validator;
     }
 
-    public async Task AddProductAsync(Product product,CancellationToken cancellationToken)
+    public async Task AddProductAsync(Product product, CancellationToken cancellationToken)
     {
         cancellationToken.ThrowIfCancellationRequested();
         
